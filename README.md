@@ -1,5 +1,5 @@
 # BSU-master-paper-template-XeLaTeX
-This repository contains necessary files for typesetting master paper in XeLaTeX. The formatting complies with requirements of BSU administration (except Times New Roman, because I hate it, lol). Most of the workflow is listed in `main.tex` however it is noticable that:
+This repository contains necessary files for typesetting master thesis in XeLaTeX. The formatting complies with requirements of BSU administration (except Times New Roman, because I hate it, lol). Most of the workflow is listed in `main.tex` however it is noticable that:
 - Class is supposed to be compiled with XeLaTeX only
 - All the loaded fonts are presented in repository and could be replaced with others (see `mpaper.cls`)
 - Don't modify `mpaper.cls` unless you know what you are doing
@@ -9,5 +9,14 @@ This repository contains necessary files for typesetting master paper in XeLaTeX
 - Don't use `\sloppy` as it will lead to painful death.
 
 You can always contact me with issue if you want to ask anything (or personally if you're granted this privilege).
+
+# Files
+The repository contains following types of files:
+- Font files (all the `*.otf` and `*.ttf` files). They are presented for portability, so you don't need to install necessary fonts system-wide
+- `mpaper.cls` is a TeX class file that contains definition for `mpaper` class and all the necessary packages and formatting stuff to make your thesis shine bright like it was typeset in Word.
+- `main.tex` quite self-explanatory name for a file.
+- `mpaper.cwl`. In case you use TeXStudio you can get upset with how it highlights some commands defined in `mpaper.cls`. So you need visit the [TeXStudio manual](https://texstudio-org.github.io/background.html#description-of-the-cwl-format) to know where to emplace this file to get rid of this annoying yellow boxes around 'unknown' commands.
+- `LICENSE` file. Read carefully as it can contain something bad like sacrificing your firstborns in honor of C programming language.
+- `README.md` file. This is mysterious file that was never seen by anyone, so many philosophers and scientists are in doubt about it's existence
 
 P.S. If you replace suggested main font with Times New Roman I'll cross you out of my friend list and will never drink beer with you.
