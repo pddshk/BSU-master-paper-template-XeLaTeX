@@ -15,7 +15,7 @@ The repository contains following types of files:
 - Font files (all the `*.otf` and `*.ttf` files). They are presented for portability, so you don't need to install necessary fonts system-wide
 - `mpaper.cls` is a TeX class file that contains definition for `mpaper` class and all the necessary packages and formatting stuff to make your thesis shine bright like it was typeset in Word.
 - `main.tex` quite self-explanatory name for a file.
-- `mpaper.cwl`. In case you use TeXStudio you can get upset with how it highlights some commands defined in `mpaper.cls`. So you need visit the [TeXStudio manual](https://texstudio-org.github.io/background.html#description-of-the-cwl-format) to know where to emplace this file to get rid of this annoying yellow boxes around 'unknown' commands.
+- `mpaper.cwl`. In case you use TeXStudio you can get upset with how it highlights some commands defined in `mpaper.cls`. So you need to visit the [TeXStudio manual](https://texstudio-org.github.io/background.html#description-of-the-cwl-format) to know where to emplace this file to get rid of this annoying yellow boxes around the 'unknown' commands.
 - `LICENSE` file. Read carefully as it can contain something bad like sacrificing your firstborns in honor of C programming language.
 - `README.md` file. This is mysterious file that was never seen by anyone, so many philosophers and scientists are in doubt about it's existence
 
