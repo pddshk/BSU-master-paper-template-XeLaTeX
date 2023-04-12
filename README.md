@@ -1,4 +1,4 @@
-# BSU-master-paper-template-XeLaTeX
+# BSU-master-thesis-template-XeLaTeX
 This repository contains necessary files for typesetting master thesis in XeLaTeX. The formatting complies with requirements of BSU administration (except Times New Roman, because I hate it, lol). Most of the workflow is listed in `main.tex` however it is noticable that:
 - Class is supposed to be compiled with XeLaTeX only
 - All the loaded fonts are presented in repository and could be replaced with others (see `mpaper.cls`)
