@@ -10,7 +10,7 @@
 \RequirePackage[english,russian]{babel}
 \RequirePackage[no-math]{fontspec}
 \RequirePackage{unicode-math}
-\RequirePackage{hyperref}
+\RequirePackage[pdfversion=2.0]{hyperref}
 \RequirePackage{caption}[2004/07/16]
 \RequirePackage{cleveref}
 
