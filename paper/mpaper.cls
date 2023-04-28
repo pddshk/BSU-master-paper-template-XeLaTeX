@@ -13,20 +13,20 @@
 \RequirePackage[pdfversion=2.0]{hyperref}
 \RequirePackage{caption}[2004/07/16]
 \RequirePackage{cleveref}
+\usepackage[outputdir=output]{minted}
 
 \changefontsize[18pt]{14pt}
-\setmainfont{PTSerif}[
-    Extension = .ttf,
-    UprightFont = *-Regular,
-    BoldFont = *-Bold,
-    ItalicFont = *-Italic,
-    BoldItalicFont = *-BoldItalic
+\setmainfont[ExternalLocation=./../fonts/]{PTSerif}[
+    UprightFont = *-Regular.ttf,
+    BoldFont = *-Bold.ttf,
+    ItalicFont = *-Italic.ttf,
+    BoldItalicFont = *-BoldItalic.ttf
 ]
-\setmathfont[bold-style=ISO]{latinmodern-math.otf}
-\setmathfont[range={\varnothing}]{Asana-Math.otf}
-\setmathfont[range={scr,bfscr}]{Asana-Math.otf}
-\setmathfont[range={cal,bfcal}, Alternate]{Asana-Math.otf}
-\setmathfont[range=bb]{texgyrepagella-math.otf}
+\setmathfont[bold-style=ISO, ExternalLocation=./../fonts/]{latinmodern-math.otf}
+\setmathfont[range={\varnothing}, ExternalLocation=./../fonts/]{Asana-Math.otf}
+\setmathfont[range={scr,bfscr}, ExternalLocation=./../fonts/]{Asana-Math.otf}
+\setmathfont[range={cal,bfcal}, Alternate, ExternalLocation=./../fonts/]{Asana-Math.otf}
+\setmathfont[range=bb, ExternalLocation=./../fonts/]{texgyrepagella-math.otf}
 \AtBeginDocument{
     \renewcommand{\setminus}{\mathbin{\big\backslash}}%
 }
