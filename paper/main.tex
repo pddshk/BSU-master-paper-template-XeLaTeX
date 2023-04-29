@@ -1,9 +1,14 @@
+% !TeX document-id = {1b6f327f-e1a6-4806-9e7c-f47370a628ea}
 % !TeX spellcheck = ru_RU
-% !TeX TXS-program:compile = txs:///xelatex
+% !TeX TXS-program:bibliography = txs:///bibtex/{} output/main.aux
+% !TeX TXS-program:prepare = txs:///xelatex/[-synctex=0 -output-directory=output -no-pdf -shell-escape]
+% !TeX TXS-program:recompile-bibliography = txs:///prepare | txs:///bibliography | txs:///prepare
+% !TeX TXS-program:compile = txs:///xelatex/[-synctex=15 -output-directory=output -shell-escape]
 
-\documentclass{mpaper}
+\documentclass[bibliography=totoc]{mpaper}
 
 \usepackage{tikz}
+\usepackage[outputdir=output]{minted}
 
 %\title{Центральные простые алгебры}
 %\author{ДЫДЫШКО Павел Александрович}
@@ -34,12 +39,12 @@
 
     Обращаю также внимание, что обычные дефисы ломают переносы слов, таким образом, например пишущееся черезе дефис механико-математический в этой строчке вызывает оверфулл, ибо не может быть нормально перенесено. Это происходит потому, что \TeX\ не переносит слова, в которых переносы заданы явно. Во избежание таких недоразуменый русскоязычный \verb|babel| вводит следующий знак переноса: механико\verb|"=|математический механико"=математический
 
-    \include{abstract}
+%    \include{abstract}
     \include{defs}
     \include{intro}
     \include{work}
     \include{conclusion}
-    \include{literature}
+    \include{bibliography}
     \include{appendix}
 
 \end{document}

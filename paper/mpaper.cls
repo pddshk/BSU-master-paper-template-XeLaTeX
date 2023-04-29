@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{mpaper}[Class for master thesis]
 
-\LoadClass{extreport}
+\LoadClassWithOptions{extreport}
 
 \RequirePackage{titlesec}
 \RequirePackage{fontsize}
@@ -13,7 +13,16 @@
 \RequirePackage[pdfversion=2.0]{hyperref}
 \RequirePackage{caption}[2004/07/16]
 \RequirePackage{cleveref}
-\usepackage[outputdir=output]{minted}
+
+% allow url to break at every character
+\RequirePackage{xurl}
+\expandafter\def\UrlBreaks{\do\/\do\a\do\b\do\c\do\d\do\e
+    \do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\n\do\o
+    \do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y
+    \do\z\do\A\do\B\do\C\do\D\do\E\do\F\do\G\do\H\do\I
+    \do\J\do\K\do\L\do\M\do\N\do\O\do\P\do\Q\do\R\do\S
+    \do\T\do\U\do\V\do\W\do\X\do\Y\do\Z}
+
 
 \changefontsize[18pt]{14pt}
 \setmainfont[ExternalLocation=./../fonts/]{PTSerif}[
