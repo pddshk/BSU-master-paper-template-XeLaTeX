@@ -714,9 +714,9 @@ FUNCTION {bbl.urldate}
 { curlanguage "english" =
    {"online; accessed"}
    { curlanguage "ukrainian" =
-      { "{дата доступу}" }
+      { "{Дата доступу}" }
       { curlanguage "russian" =
-         { "{дата обращения}" }
+         { "{Дата доступа}" }
          { curlanguage "german" =
             { "{online; abgerufen}" }
             { curlanguage "french" =
@@ -1698,7 +1698,7 @@ FUNCTION {format.url}
       bbl.url ": \BibUrl{" * url * "}" *
       urldate empty$
         { "" }
-        { " (" bbl.urldate * ": " * urldate * ")" * }
+        { "~\BibDash " bbl.urldate * ": " * urldate * }
       if$ *
     }
   if$
