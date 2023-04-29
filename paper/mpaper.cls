@@ -25,17 +25,11 @@
 
 
 \changefontsize[18pt]{14pt}
-\setmainfont[ExternalLocation=./../fonts/]{PTSerif}[
-    UprightFont = *-Regular.ttf,
-    BoldFont = *-Bold.ttf,
-    ItalicFont = *-Italic.ttf,
-    BoldItalicFont = *-BoldItalic.ttf
-]
-\setmathfont[bold-style=ISO, ExternalLocation=./../fonts/]{latinmodern-math.otf}
-\setmathfont[range={\varnothing}, ExternalLocation=./../fonts/]{Asana-Math.otf}
-\setmathfont[range={scr,bfscr}, ExternalLocation=./../fonts/]{Asana-Math.otf}
-\setmathfont[range={cal,bfcal}, Alternate, ExternalLocation=./../fonts/]{Asana-Math.otf}
-\setmathfont[range=bb, ExternalLocation=./../fonts/]{texgyrepagella-math.otf}
+\setmathfont[bold-style=TeX, ExternalLocation=../fonts/]{latinmodern-math.otf}
+\setmathfont[range={\varnothing}, ExternalLocation=../fonts/]{Asana-Math.otf}
+\setmathfont[range={scr,bfscr}, ExternalLocation=../fonts/]{Asana-Math.otf}
+\setmathfont[range={cal,bfcal}, Alternate, ExternalLocation=../fonts/]{Asana-Math.otf}
+\setmathfont[range=bb, ExternalLocation=../fonts/]{texgyrepagella-math.otf}
 \AtBeginDocument{
     \renewcommand{\setminus}{\mathbin{\big\backslash}}%
 }
