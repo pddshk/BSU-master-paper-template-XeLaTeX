@@ -7,7 +7,7 @@ PREFLAGS := -synctex=0 -no-pdf $(FLAGS)
 FLAGS    := -synctex=15 $(FLAGS)
 
 
-all: prepare precompile compile
+all: prepare clean precompile compile
 	cp $(OUTDIR)/$(MAIN).{pdf,log} ./
 
 prepare:
