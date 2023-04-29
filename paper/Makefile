@@ -8,7 +8,7 @@ FLAGS    := -synctex=15 $(FLAGS)
 
 
 all: prepare clean precompile compile
-	cp $(OUTDIR)/$(MAIN).{pdf,log} ./
+	mv $(OUTDIR)/$(MAIN).{pdf,log} ./
 
 prepare:
 	mkdir -p $(OUTDIR)

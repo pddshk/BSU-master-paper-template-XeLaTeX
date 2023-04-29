@@ -11,12 +11,16 @@ This repository contains necessary files for typesetting master thesis in XeLaTe
 You can always contact me with issue if you want to ask anything (or personally if you're granted this privilege).
 
 # Files
-The repository contains following types of files:
+The repository contains following essential files:
 - Font files (all the `*.otf` and `*.ttf` files). They are presented for portability, so you don't need to install necessary fonts system-wide
 - `mpaper.cls` is a TeX class file that contains definition for `mpaper` class and all the necessary packages and formatting stuff to make your thesis shine bright like it was typeset in Word.
-- `main.tex` quite self-explanatory name for a file.
+- `main.tex` and other `.tex` files.
 - `mpaper.cwl`. In case you use TeXStudio you can get upset with how it highlights some commands defined in `mpaper.cls`. So you need to visit the [TeXStudio manual](https://texstudio-org.github.io/background.html#description-of-the-cwl-format) to know where to emplace this file to get rid of this annoying yellow boxes around the 'unknown' commands.
+- `refs.bib` file for BibTeX.
 - `LICENSE` file. Read carefully as it can contain something bad like sacrificing your firstborns in honor of C programming language.
 - `README.md` file. This is mysterious file that was never seen by anyone, so many philosophers and scientists are in doubt about it's existence
+
+# Build
+The `main.tex` file (and almost any other source file) contains some magics for TeXStudio so **TeXStudio is the recommended enviroment to work in**. However for hardcore guys there's a `Makefile` so they can compile from terminal and enjoy reading raw logs.
 
 P.S. If you replace suggested main font with Times New Roman I'll cross you out of my friend list and will never drink beer with you.

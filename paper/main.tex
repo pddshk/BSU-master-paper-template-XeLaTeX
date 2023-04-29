@@ -2,7 +2,7 @@
 % !TeX TXS-program:bibliography = txs:///bibtex/{} output/main.aux
 % !TeX TXS-program:prepare = txs:///xelatex/[-synctex=0 -output-directory=output -no-pdf -shell-escape]
 % !TeX TXS-program:recompile-bibliography = txs:///prepare | txs:///bibliography | txs:///prepare
-% !TeX TXS-program:compile = txs:///xelatex/[-synctex=15 -output-directory=output -shell-escape]
+% !TeX TXS-program:compile = txs:///xelatex/[-synctex=15 -output-directory=output -shell-escape] | mv output/%.pdf ./ | mv output/%.log ./
 
 \documentclass{mpaper}
 
