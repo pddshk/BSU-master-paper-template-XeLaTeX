@@ -1,3 +1,4 @@
+% !TeX root = main
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{mpaper}[Class for master thesis]
 
