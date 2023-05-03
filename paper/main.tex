@@ -2,7 +2,7 @@
 % !TeX TXS-program:bibliography = txs:///bibtex/{} output/main.aux
 % !TeX TXS-program:prepare = txs:///xelatex/[-synctex=0 -output-directory=output -no-pdf -shell-escape]
 % !TeX TXS-program:recompile-bibliography = txs:///prepare | txs:///bibliography | txs:///prepare
-% !TeX TXS-program:compile = txs:///xelatex/[-synctex=15 -output-directory=output -shell-escape] | mv output/%.pdf ./ | mv output/%.log ./
+% !TeX TXS-program:compile = txs:///xelatex/[-synctex=15 -output-directory=output -shell-escape] | mv output/%.pdf ./ | mv output/%.log ./ | mv output/%.synctex ./
 
 \documentclass{mpaper}
 
@@ -11,14 +11,14 @@
 
 \setmainfont{PTSerif} % PTSerif.fontspec
 
-%\title{Центральные простые алгебры}
-%\author{ДЫДЫШКО Павел Александрович}
-%\faculty{механико--математический факультет}
-%\department{высшей алгебры и защиты информации}
-%\speciality{1-31 80 03 <<математика и компьютерные науки>>}
-%\supervisor{Тихонов Сергей Викторович\\доцент, кандидат физ.--мат. наук}
-%\headofdepartment{Беняш--Кривец, Валерий Вацлавович\\профессор, доктор физ.--мат. наук}
-%\setyear{2024}
+\title{Центральные простые алгебры}
+\author{ДЫДЫШКО Павел Александрович}
+\faculty{механико-математический факультет}
+\department{высшей алгебры и защиты информации}
+\speciality{1-31 80 03 <<математика и компьютерные науки>>}
+\supervisor{Тихонов Сергей Викторович\\доцент, кандидат физ.--мат. наук}
+\headofdepartment{Беняш--Кривец, Валерий Вацлавович\\профессор, доктор физ.--мат. наук}
+\setyear{2024}
 
 \renewcommand{\LaTeXe}{\LaTeX\kern.15em2$_{\textstyle\varepsilon}$}
 \setlength{\parskip}{0.3\baselineskip}

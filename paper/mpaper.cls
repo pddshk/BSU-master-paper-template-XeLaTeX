@@ -24,7 +24,6 @@
     \do\J\do\K\do\L\do\M\do\N\do\O\do\P\do\Q\do\R\do\S
     \do\T\do\U\do\V\do\W\do\X\do\Y\do\Z}
 
-
 \changefontsize[18pt]{14pt}
 \setmathfont[bold-style=TeX, ExternalLocation=../fonts/]{latinmodern-math.otf}
 \setmathfont[range={\varnothing}, ExternalLocation=../fonts/]{Asana-Math.otf}
