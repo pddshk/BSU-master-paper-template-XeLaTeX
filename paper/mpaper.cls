@@ -15,6 +15,10 @@
 \RequirePackage{caption}[2004/07/16]
 \RequirePackage{cleveref}
 
+% tweak indentation for enums
+\RequirePackage{enumitem}
+\setlist[1]{leftmargin=\parindent}
+
 % allow url to break at every character
 \RequirePackage{xurl}
 \expandafter\def\UrlBreaks{\do\/\do\a\do\b\do\c\do\d\do\e
